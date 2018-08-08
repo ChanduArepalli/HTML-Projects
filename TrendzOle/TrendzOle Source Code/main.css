@@ -1,0 +1,38 @@
+
+video {
+    border: 4px solid red;
+    background-color: black;
+    padding: 0 40px; 
+    margin: 4px;
+ 
+
+}
+body {
+   
+}
+
+
+
+img {
+    border: 5px solid red;
+}
+
+ul {
+    float: left;
+}
+
+fieldset {
+    background-color: #00fdqa;
+}
+
+.chan {
+    border-color: red;
+    margin: 5px;
+    
+}
+
+div {
+    border: 3px solid black;
+    width: 250px;
+    height: 100px;
+}

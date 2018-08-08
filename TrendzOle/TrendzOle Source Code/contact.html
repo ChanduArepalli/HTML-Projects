@@ -1,0 +1,114 @@
+<!Doc Type HTML>
+<html>
+  <head>
+      <title>TrendzOle</title>
+      <link rel="stylesheet" href="Order.css">
+      <link rel="icon" href="TrendzOlePhotos/TO%20logo%2002.png">
+ 
+  <style>
+      .map{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    
+}
+iframe{
+    width: 80%;
+    height: 440px;
+}
+section{
+    text-align: center;
+    color: #00ff00;
+    font-size: 25px;
+}
+label{
+    margin-left: 10px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+button{
+    margin-top: 35px;
+    width: 300px;
+    height: 40px;
+    background-color: #00ff00;
+    color: black;
+    font-size: 25px;
+    font-family:serif;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: black;
+    border: 2px solid #00ff00;
+    color: #00ff00;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+button:active{
+    background-color: rgba(0, 255, 0, 0.26);
+}
+      
+      </style>
+   
+    
+      </head>
+ <body>
+    <nav class="nav">
+        
+      <ul>
+         <li><a href="#">About</a></li>
+         <li><a href="contact.html">Contact</a></li>
+         <li><a href="Ord.html">Order</a></li>
+         <li><a href="TrendzOle.html">Home</a></li>
+      </ul>
+        <form class="search-bar">
+          <input  type="text" placeholder="search" class="search-bar"  >
+            <button class="search-button" type="submit">Search</button>
+        </form>
+    </nav> 
+       <img id="trendzole-logo" src="TrendzOlePhotos/TrendzOle%20logo02.png">
+     <img id="to-logo" src="TrendzOlePhotos/TO%20logo%2002.png" width="15%">
+
+    <div class="map">
+		<iframe src="Wallpapers/Map.png">
+		</iframe>
+	</div>
+	
+	<section >
+        <div>
+            <div>        
+                <h2 style="text-decoration: underline">Drop Your Message</h2>
+                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div> 
+            <div> 
+                <div  style="display: none"></div>
+                <form  name="contact-form" method="post" action="sendemail.php">
+                
+                        <div >
+                            <label>Name *</label>
+                            <input type="text" name="name" class="form-control" required="required">
+                        
+                            <label>Email *</label>
+                            <input type="email" name="email" class="form-control" required="required">
+                        </div> 
+                    <div class="col-sm-5">
+                        
+                        <div style="margin-top: 20px">
+                            <label>Message *</label>
+                            <br><textarea name="message" id="message" required="required" class="form-control" rows="5" cols="70" ></textarea>
+                        </div>                       
+                        <div>
+                            <a href="contact.html"><button type="submit" name="submit" required="required">Submit Message</button></a>
+                        </div>
+                    </div>
+                </form> 
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#contact-page-->
+    
+   
+  </body>
+</html>
+    

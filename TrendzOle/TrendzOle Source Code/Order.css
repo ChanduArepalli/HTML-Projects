@@ -1,0 +1,191 @@
+body{
+    background-color: black;
+    color: white;
+    border: 3px solid #00ff00 ;
+    margin: 0.3%
+}
+.nav{
+    background-color: #008000;
+    width: 99%;
+    overflow: auto;
+    height: 9%;
+    position: fixed;
+    
+  
+    
+}
+.nav ul{
+    position: fixed;
+    
+    padding-left: 50%;
+    margin-top: 3px;
+    list-style: none;
+    line-height: 48px;
+    margin-left: 00px;
+    
+}
+.nav li{
+    float:right;
+    margin:1;
+    margin-top: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+ 
+}
+.nav ul li a{ 
+
+    background-color: black;
+    text-decoration: none;
+    width:auto;
+    border: 2px solid #adadad;
+    border-radius: 15px 0 15px 0;
+    display: block;
+    text-align: center;
+    color: #00ff00;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 37px;
+    font-family: bold;
+    letter-spacing: 0.5px;
+}
+.nav ul li a:hover{
+    transform: scale(1.1);
+    border:2px solid Black;
+    background-color: #00ff00;
+    color: black;
+}
+.search-bar{
+  
+    padding-top: 12px;
+    margin-top: 3px;
+    
+    float: left;
+    margin-left: 10%;
+}
+.search-bar[type=text]{
+    position: fixed;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 20px 0 20px 0;
+    background-color: #88c086;
+    font-size: 14px;
+    width: 21%; 
+    margin-left: 10%;
+    font-family: bold;
+}
+input[type=text]:hover{
+background-color: white;
+}
+input[type=text]:focus{
+background-color: white;
+}
+
+
+
+.search-button{
+    position: fixed;
+   
+    float: right;
+    width: 7.5%;
+    background-color: black;
+   
+    color: #00ff00;
+    border-radius: 15px 0 15px 0;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 1px;
+    margin-left: 31.5%;
+    letter-spacing: 2px;
+    
+    padding: 6px;
+    font-family:bold;
+}
+.search-button:active{
+    background-color: white;
+    border-radius: 15px 0 15px 0;
+    color: black;
+    border: solid black;
+}
+
+#trendzole-logo {
+    width: 20%;
+    height: 9%;
+    position: fixed;
+    top: 5px;
+    left: 4px;   
+}
+#to-logo {
+    width: 6%;
+    height: 8%;
+    position: fixed;
+    top: 7px;
+    right: 0.4%;   
+}
+form{
+    text-align: center;
+}
+.order-details{
+    width: 99%;
+    margin-top: 80px;
+    font-size: 50px;
+    text-decoration:underline;
+    text-align: center;
+    display: inline-block;
+}
+.order{
+    text-align: center;
+    color:#00ff00;
+    text-align: center;
+    font-size: 30px;
+}
+.order input{
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+}
+.mail-phone{
+    color:#00ff00;
+ 
+    font-size: 30px;
+  
+}
+.mail-phone input{
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    
+}
+.city{
+    color:#00ff00;
+    margin: 10px;
+    font-size: 30px;
+}
+.city input{
+    width: 250px;
+    font-size: 20px;
+    height: 30px;
+}
+
+
+.button-ord-msg {
+    border-radius:16px 16px 16px 16px;
+    font-size: 30px;
+    font-family:serif;
+    color: black;
+    background-color: rgba(0, 255, 0, 0.74);
+    width: 400px;
+    height: 50px;
+    
+}
+.button-ord-msg:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.2);
+    border: 3px solid #00ff00;
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.month {
+    width: 70px;
+    font-size: 20px;
+}

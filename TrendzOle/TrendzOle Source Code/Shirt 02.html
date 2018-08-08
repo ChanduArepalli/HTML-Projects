@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>C logo Hoodies</title>
+    <link href="TrendzOle1.css">
+    <link type="text/css" rel="stylesheet" href="css/lightbox.min.css">
+    <script type="text/javascript" src="js1.js"></script>
+    <style>
+        body {
+            margin: 0;
+            background-color: black;
+        }
+
+        .slider-container {
+           display: inline-block;
+            margin-left: 200px;    
+            position:none; 
+            margin-top: 150px;
+        }
+
+        .slide,.slide1 {
+            
+            display: none;
+        }
+        .prev,
+        .next {
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            margin-left: 0px;
+            color: black;
+            background-color: white;
+            font-weight: bold;
+            border-radius: 0 4px 4px 0;
+            cursor: pointer;
+            padding: 8px 8px;
+        }
+
+        .next {
+            margin-left: 375px;
+            border-radius: 4px 0 0 4px;
+        }
+
+        .prev:hover,
+        .next:hover {
+            background-color: rgba(0, 0, 0, 0.46);
+        }
+
+        .dots,.dots1 {
+            display: inline-block;
+            width: 8px; 
+            margin-top:0;
+            margin-left: 10px;
+            height: 8px;
+            display: inline-block;
+            padding: 5px;
+            border-radius: 50%;
+        }
+        .dots,.dots1:active{
+            transform: scale(1.2);
+        }
+
+        .fade {
+            animation-name: fade;
+            animation-duration: 0.5s;
+        }
+
+        @keyframes fade {
+            from {
+                opacity: 0.3
+            }
+            to {
+                opacity: 1
+            }
+        }
+
+        .active,
+        .dots:hover {
+            background-color: black;
+        }
+        h1{
+            display: inline-block;
+            text-align: center;
+            margin-left: 450px;
+        }
+        p,h2{
+            display: inline-block;
+            text-align: center;
+            margin-left: 450px
+        }
+        .block{
+            display: block;
+        }
+    </style>
+      <link rel="stylesheet" href="TrendzOle1.css">
+      <link rel="stylesheet" href="ShirtMainPage.css">
+      <style></style>
+     <link rel="icon" href="TrendzOlePhotos/TO%20logo.ico">
+  </head>
+<body>
+   <nav class="nav">
+        
+      <ul>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="Ord.html">Order</a></li>
+         <li><a href="TrendzOle.html">Home</a></li>
+      </ul>
+        <form class="search-bar">
+          <input  type="text" placeholder="search" class="search-bar"  >
+            <button   class="search-button" type="submit">Search</button>
+        </form>
+    </nav> 
+       <img id="trendzole-logo" src="TrendzOlePhotos/TrendzOle%20logo02.png" width="15%">
+     <img id="to-logo" src="TrendzOlePhotos/TO%20logo%2002.png" width="15%">
+    <div style="">
+        <div class="slider-container">
+            <div style="display: block;" class="slide fade">
+                <div><img src="Shirts/02/2-4.png"  width="400px"></div>
+            </div>
+              
+    
+            
+            <div class="slide">
+                
+                <div><img src="Shirts/02/2-1.png" width="400px"></div>
+               
+            </div>
+            <div class="slide">
+               
+                <div><img src="Shirts/02/2-2.png" width="400px"></div>
+             
+            </div>
+            <div class="slide">
+              
+                <div><img src="Shirts/02/2-3.png" width="400px"></div>
+              
+            </div>
+
+            <a class="prev" onclick="plusIndex(-1)">&#10094;</a>
+            <a class="next" onclick="plusIndex(+1)">&#10095;</a>
+        </div>
+       <div class="Block">
+        <br><h1 style="position: relative; display: inline-block">C Logo Hoodies</h1><p>Hoodies</p>
+        <p>You can get in different types colours shirts in this MCA Model</p>
+        <h2>Prize : 725/-</h2>
+        <h2>  Color </h2>
+        <div style="text-align: center; margin-left: 450px;">
+            <span style="background-color:blue;" class="dots" onclick="currentSlide(1)"></span>
+            <span style="background-color:white;" class="dots" onclick="currentSlide(2)"></span>
+            <span style="background-color:grey;" class="dots" onclick="currentSlide(3)"></span>
+            <span style="background-color:red;" class="dots" onclick="currentSlide(4)"></span>
+         </div>
+        <h2>Size </h2>
+        <h2><input type="radio" required autofocus name="File" value="file">S
+        <input type="radio" required autofocus name="File" value="file" style="margin-left: 30px">M
+        <input type="radio" required autofocus name="File" value="file" style="margin-left: 30px">L
+        <input type="radio" required autofocus name="File" value="file" style="margin-left: 30px">XL
+         </h2>
+         <h2 style="text-align: left;margin-left: 450px"><a href="Payment.html" style="cursor: pointer"><button  style="cursor: pointer;width: 400px;text-align:center" class="submit" type="submit" name="Submit"> Buy </button></a></h2>
+         <h2  style="text-align:center;margin-left:;">Guide <p style="font-size: 15px;margin-left: 0px">100% Original Products, Free Delivery on online payment, Easy returns.</p></h2>
+         <h2  style="text-align:center;margin-left:;"> Material & Care <p style="font-size: 15px;margin-left: 0px">100% Cotton, Machine-wash. </p></h2><br><br>
+         
+    </div>
+     
+    <script type="text/javascript">
+        var slideIndex = 1;
+
+        showIndex();
+
+        function currentSlide(n) {
+            showImage(slideIndex = n);
+        }
+
+        function plusIndex(n) {
+            showImage(slideIndex += n);
+        };
+
+        function showImage(n) {
+            var slide = document.getElementsByClassName("slide");
+            var dots = document.getElementsByClassName("dots");
+
+            if (n > slide.length) {
+                slideIndex = 1
+            };
+
+            if (n < 1) {
+                slideIndex = slide.length
+            };
+
+            for (i = 0; i < slide.length; i++) {
+                slide[i].style.display = "none";
+
+            };
+            slide[slideIndex - 1].style.display = "block";
+
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace("active", "")
+            }
+
+
+            dots[slideIndex - 1].className += " active ";
+
+
+
+        }
+
+    </script>
+
+</body>
+
+</html>

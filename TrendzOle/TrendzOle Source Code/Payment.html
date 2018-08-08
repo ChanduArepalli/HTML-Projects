@@ -1,0 +1,77 @@
+<!Doc Type HTML>
+<html>
+  <head>
+      <title>TrendzOle</title>
+      <link rel="stylesheet" href="Order.css">
+      <link rel="icon" href="TrendzOlePhotos/TO%20logo%2002.png">
+      <style>
+          .button{
+              cursor: pointer;width: 400px;font-size: 25px;margin-top: 20px;border-radius:20px;background-color: #00ff00;
+          }
+          .button:hover{
+              background-color: black;
+              border: 2px solid #00ff00 ;
+              transform: scale(1.2);
+              color: white;
+          }
+          .button:active{
+              background-color: rgba(0, 255, 0, 0.39);
+          }
+      
+      </style>
+  </head>
+ <body>
+    <nav class="nav">
+        
+      <ul>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Contact</a></li>
+         <li><a href="Ord.html">Order</a></li>
+         <li><a href="TrendzOle.html">Home</a></li>
+      </ul>
+        <form class="search-bar">
+          <input  type="text" placeholder="search" class="search-bar"  >
+            <button class="search-button" type="submit">Search</button>
+        </form>
+    </nav> 
+       <img id="trendzole-logo" src="TrendzOlePhotos/TrendzOle%20logo02.png">
+     <img id="to-logo" src="TrendzOlePhotos/TO%20logo%2002.png" width="15%">
+
+  <div >
+        <h2 class="order-details">Payment Details</h2>
+        <form action="Order%20Sucessfull%20Msg.html">
+         <h2 class="order">Bank : <select name="Back-name" required autofocus style="font-size:20px;width: 400px;text-align: center;" >
+                                   <option>----------------------Bank----------------------</option>
+                                   <option>State Bank Of India</option>
+                                   <option>Indian Bank</option>
+                                   <option>Andhra Bank</option>
+                                   <option>Panjab National Bank</option>
+                                   <option>HDFC</option>
+                                   <option>ICICI</option>
+                                   <option>Axis Bank</option>
+                                   <option>Other</option></select> 
+                                   Card No : <input type="number" required autofocus placeholder="       0123456789" title="please enter the Card Number" ></h2>
+    
+    <h2 style="color: #00ff00">Month : <input class="month" type="number" required="required" autofocus placeholder="  MM" max="12">  Year : <input class="month" type="text" required autofocus placeholder=" YYYY" max="2099" min="2018" > 
+            <br><br>
+           </h2><h2 class="city">  CVV : <input type="number" required autofocus placeholder="  123" max="999" min="100"><button type="button" style="width: 150px;height: 30px;margin:10px;"> Genarate OTP</button><br> OTP : <input type="number" required autofocus placeholder="  123456" max="999999"></h2>
+        <button class="button" name="Submit">Proceed To Pay </button><a href="Order%20Sucessfull%20Msg.html"></a>
+        <br>
+        <br>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+    
+           </form>
+        
+    
+        </form>
+        
+    </div>
+   
+     
+ </body>
+
+</html>
